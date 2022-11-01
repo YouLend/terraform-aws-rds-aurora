@@ -181,7 +181,7 @@ variable "engine_mode" {
 variable "engine_version" {
   description = "The database engine version. Updating this argument results in an outage"
   type        = string
-  default     = null
+  default     = "11.13"
 }
 
 variable "final_snapshot_identifier_prefix" {
